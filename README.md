@@ -40,3 +40,4 @@ Apart from the remote secret supporting the delivery of the secret, it is also o
 
 The remote secret is a template of a single secret that can be delivered to multiple targets. Because the target is identified by the namespace (and the URL of the cluster, if provided), there can be at most one secret delivered to a certain namespace by a single remote secret.
 
+### Test
