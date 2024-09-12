@@ -25,7 +25,7 @@ COPY pkg/ pkg/
 RUN CGO_ENABLED=0 GOOS=${TARGETOS:-linux} GOARCH=${TARGETARCH} go build -a -o manager main.go
 RUN echo "SCOTT" >> main.go
 
-FROM registry.access.redhat.com/ubi9/ubi-minimal:9.3 as remote-secret-operator
+FROM registry.access.redhat.com/ubi9/ubi-minimal:9.4 as remote-secret-operator
 
 WORKDIR /
 COPY --from=builder /opt/app-root/src/manager .
