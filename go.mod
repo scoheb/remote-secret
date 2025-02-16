@@ -1,10 +1,12 @@
 module github.com/redhat-appstudio/remote-secret
 
-go 1.20
+go 1.21
+
+toolchain go1.22.9
 
 require (
 	github.com/alexflint/go-arg v1.4.3
-	github.com/aws/aws-sdk-go v1.50.21
+	github.com/aws/aws-sdk-go v1.55.6
 	github.com/aws/aws-sdk-go-v2 v1.26.1
 	github.com/aws/aws-sdk-go-v2/config v1.27.11
 	github.com/aws/aws-sdk-go-v2/service/secretsmanager v1.28.6
