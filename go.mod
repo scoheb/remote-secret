@@ -85,7 +85,7 @@ require (
 	github.com/hashicorp/vault/api/auth/aws v0.4.1 // indirect
 	github.com/hashicorp/vault/api/auth/ldap v0.4.1 // indirect
 	github.com/hashicorp/vault/api/auth/userpass v0.4.1 // indirect
-	github.com/imdario/mergo v0.3.16 // indirect
+	github.com/imdario/mergo v1.0.1 // indirect
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
