@@ -1,6 +1,8 @@
 module github.com/redhat-appstudio/remote-secret
 
-go 1.20
+go 1.21
+
+toolchain go1.22.9
 
 require (
 	github.com/alexflint/go-arg v1.4.3
@@ -107,7 +109,7 @@ require (
 	github.com/ryanuber/go-glob v1.0.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/stretchr/objx v0.5.2 // indirect
-	github.com/tidwall/gjson v1.16.0 // indirect
+	github.com/tidwall/gjson v1.18.0 // indirect
 	github.com/tidwall/match v1.1.1 // indirect
 	github.com/tidwall/pretty v1.2.1 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
