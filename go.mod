@@ -1,6 +1,8 @@
 module github.com/redhat-appstudio/remote-secret
 
-go 1.20
+go 1.23.0
+
+toolchain go1.23.8
 
 require (
 	github.com/alexflint/go-arg v1.4.3
@@ -117,7 +119,7 @@ require (
 	golang.org/x/oauth2 v0.12.0 // indirect
 	golang.org/x/sys v0.18.0 // indirect
 	golang.org/x/term v0.18.0 // indirect
-	golang.org/x/text v0.14.0 // indirect
+	golang.org/x/text v0.24.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
 	gomodules.xyz/jsonpatch/v2 v2.4.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
