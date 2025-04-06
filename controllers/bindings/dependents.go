@@ -19,7 +19,7 @@ import (
 	stderrors "errors"
 	"fmt"
 
-	"github.com/cenkalti/backoff/v4"
+	"github.com/cenkalti/backoff/v5"
 	api "github.com/redhat-appstudio/remote-secret/api/v1beta1"
 	corev1 "k8s.io/api/core/v1"
 	k8serrors "k8s.io/apimachinery/pkg/api/errors"

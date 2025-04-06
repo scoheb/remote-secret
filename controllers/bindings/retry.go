@@ -18,7 +18,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/cenkalti/backoff/v4"
+	"github.com/cenkalti/backoff/v5"
 	"github.com/redhat-appstudio/remote-secret/pkg/logs"
 	"k8s.io/apimachinery/pkg/api/errors"
 	"sigs.k8s.io/controller-runtime/pkg/client"

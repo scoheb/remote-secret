@@ -22,7 +22,7 @@ import (
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/service/secretsmanager"
 	"github.com/aws/aws-sdk-go-v2/service/secretsmanager/types"
-	"github.com/cenkalti/backoff/v4"
+	"github.com/cenkalti/backoff/v5"
 	"github.com/go-logr/logr"
 	"github.com/redhat-appstudio/remote-secret/pkg/logs"
 	"github.com/redhat-appstudio/remote-secret/pkg/secretstorage"
