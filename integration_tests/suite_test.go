@@ -27,7 +27,7 @@ import (
 	"github.com/redhat-appstudio/remote-secret/pkg/webhook"
 	crwebhook "sigs.k8s.io/controller-runtime/pkg/webhook"
 
-	. "github.com/onsi/ginkgo"
+	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 	"github.com/redhat-appstudio/remote-secret/controllers"
 	"github.com/redhat-appstudio/remote-secret/pkg/logs"

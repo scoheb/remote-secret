@@ -16,7 +16,7 @@ package integrationtests
 
 import (
 	"github.com/metlos/crenv"
-	. "github.com/onsi/ginkgo"
+	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 	api "github.com/redhat-appstudio/remote-secret/api/v1beta1"
 	"github.com/redhat-appstudio/remote-secret/controllers/remotesecretstorage"
