@@ -1,6 +1,8 @@
 module github.com/redhat-appstudio/remote-secret
 
-go 1.20
+go 1.24
+
+toolchain go1.24.2
 
 require (
 	github.com/alexflint/go-arg v1.4.3
@@ -14,7 +16,7 @@ require (
 	github.com/go-logr/logr v1.4.1
 	github.com/go-logr/zapr v1.3.0
 	github.com/go-playground/validator/v10 v10.18.0
-	github.com/google/go-cmp v0.6.0
+	github.com/google/go-cmp v0.7.0
 	github.com/hashicorp/go-hclog v1.6.2
 	github.com/hashicorp/vault/api v1.10.0
 	github.com/hashicorp/vault/api/auth/approle v0.5.0
@@ -24,7 +26,7 @@ require (
 	github.com/onsi/gomega v1.31.1
 	github.com/prometheus/client_golang v1.18.0
 	github.com/prometheus/client_model v0.6.0
-	github.com/stretchr/testify v1.9.0
+	github.com/stretchr/testify v1.10.0
 	go.uber.org/zap v1.27.0
 	k8s.io/api v0.29.2
 	k8s.io/apimachinery v0.29.2
@@ -56,7 +58,7 @@ require (
 	github.com/fatih/color v1.15.0 // indirect
 	github.com/fsnotify/fsnotify v1.6.0 // indirect
 	github.com/gabriel-vasile/mimetype v1.4.3 // indirect
-	github.com/go-jose/go-jose/v3 v3.0.3 // indirect
+	github.com/go-jose/go-jose/v3 v3.0.0 // indirect
 	github.com/go-openapi/jsonpointer v0.20.0 // indirect
 	github.com/go-openapi/jsonreference v0.20.2 // indirect
 	github.com/go-openapi/swag v0.22.4 // indirect
